@@ -13,10 +13,19 @@ class ViewController: UIViewController {
     @IBOutlet var profileImageView: UIImageView!
     @IBOutlet var profileCommentLabel: UILabel!
     @IBOutlet var profileLabel: UILabel!
+    @IBOutlet var Button1: UIButton!
+    @IBOutlet var Button2: UIButton!
+    @IBOutlet var Button3: UIButton!
+    @IBOutlet var Button4: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        Button1.layer.cornerRadius = 20
+        Button2.layer.cornerRadius = 20
+        Button3.layer.cornerRadius = 20
+        Button4.layer.cornerRadius = 20
         
     }
     

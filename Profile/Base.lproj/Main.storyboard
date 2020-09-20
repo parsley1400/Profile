@@ -111,6 +111,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="Button1" destination="sWP-fh-JL5" id="gkZ-ji-WAs"/>
+                        <outlet property="Button2" destination="wDk-GV-RK0" id="eeH-lj-i31"/>
+                        <outlet property="Button3" destination="95U-gO-7th" id="6Hm-N9-U8D"/>
+                        <outlet property="Button4" destination="elp-bS-fXJ" id="8bf-x2-XoG"/>
                         <outlet property="profileCommentLabel" destination="xOt-Fo-Sbo" id="YaB-v3-xX7"/>
                         <outlet property="profileImageView" destination="Scb-9I-bZI" id="Upj-ne-gPy"/>
                         <outlet property="profileLabel" destination="sHp-Yf-ENr" id="Inn-vr-9ar"/>
